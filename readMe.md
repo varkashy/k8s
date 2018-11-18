@@ -18,5 +18,11 @@ kubectl get rs/web-rs
 kubectl get pods --show-labels
 kubectl --help
 kubectl create --help
-history
-doskey /history
+
+---------------
+
+kubectl delete rs/web-rs --cascade=false
+kubectl get rs
+kubectl get pods show-labels
+kubectl get pods --show-labels
+kubectl create -f rs.yaml
