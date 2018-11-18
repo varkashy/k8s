@@ -26,3 +26,11 @@ kubectl get rs
 kubectl get pods show-labels
 kubectl get pods --show-labels
 kubectl create -f rs.yaml
+
+-----------
+
+kubectl create -f rs_scaling.yml
+kubectl apply -f rs_scaling.yml
+kubectl get rs web-rs
+kubectl apply -f rs.yaml
+kubectl get rs web-rs
